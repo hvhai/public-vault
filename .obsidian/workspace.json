@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "c945d1d913e37522",
+    "type": "split",
+    "children": [
+      {
+        "id": "97d45968a2e4065b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e46cd75493406280",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - projects/poe/poe 3.25.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e63d612b7c381ab8",
+    "type": "split",
+    "children": [
+      {
+        "id": "6269ee6f2c1f3455",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "548397126833f319",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "adad4806665200ef",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ba671fc731585b20",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2e7928a6390593e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3dcd783e1e6857b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "054ac71115f9ed33",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 - projects/poe/poe 3.25.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6733b1457505cc6c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 - projects/poe/poe 3.25.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "07192a10e3b11152",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "762656c469ced1b5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 - projects/poe/poe 3.25.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e46cd75493406280",
+  "lastOpenFiles": [
+    "01 - projects/poe/poe_3_25.ahk",
+    "Welcome.md",
+    "01 - projects/poe/poe 3.25.md",
+    "01 - projects/poe",
+    "04 - archives",
+    "03 - resources",
+    "02 - areas",
+    "01 - projects"
+  ]
+}
