@@ -5,7 +5,7 @@
 #3::Fastjump() ;
 #RButton::Cast() ;
 #e::Cast() ;
-f::SettingBoss() ;
+e::SettingBoss() ;
 Space::MousePress() ;
 p::MouseOn() ;
 
@@ -63,11 +63,11 @@ Curse(){
 
 SettingBoss(){
 	Send {t}
-	sleep 300
+	sleep 283
 	Send, {w}
-	sleep 310
+	sleep 283
 	Send, {r}
-	sleep 310
+	sleep 283
 	Send, {f}
 	return
 }
