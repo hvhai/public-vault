@@ -6,6 +6,8 @@
 #RButton::Cast() ;
 #e::Cast() ;
 e::SettingBoss() ;
+XButton1:: SettingBoss() ;
+XButton2:: Curse() ;
 Space::MousePress() ;
 p::MouseOn() ;
 
@@ -48,27 +50,22 @@ Fastrun(){
 }
 
 Curse(){
-	Send {p}
 	Send {t}
-	sleep 455
-	Send {v}
-	sleep 125
-	Send {v}
-	sleep 125
-	Send {v}
-	sleep 150
-	Send {v}
+	sleep 283
+	Send, ^w
 	return
 }
 
 SettingBoss(){
 	Send {t}
 	sleep 283
-	Send, {w}
+	Send, ^w
 	sleep 283
-	Send, {r}
+	Send, ^r
 	sleep 283
 	Send, {f}
+	sleep 283
+	Send, ^t
 	return
 }
 
