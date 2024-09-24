@@ -5,8 +5,8 @@
 #3::Fastjump() ;
 #RButton::Cast() ;
 #e::Cast() ;
-e::SettingBoss() ;
-XButton1:: SettingBoss() ;
+e::FullCry() ;
+XButton1:: CombatCry() ;
 XButton2:: Curse() ;
 Space::MousePress() ;
 p::MouseOn() ;
@@ -20,7 +20,7 @@ F4:: ;On/Off with key F1
 Return
 
 SendE: ;spams key e
-	Send, {8}
+	Send, {t}
 Return
 
 ; function list
@@ -49,23 +49,31 @@ Fastrun(){
 	return
 }
 
-Curse(){
-	Send {t}
-	sleep 283
+CombatCry(){
 	Send, ^w
+	sleep 263
+	Send, ^r
+	sleep 263
+	Send, {f}
+	sleep 263
+	Send, ^t
+	sleep 263
+	Send, ^e
 	return
 }
 
-SettingBoss(){
+FullCry(){
 	Send {t}
-	sleep 283
+	sleep 263
 	Send, ^w
-	sleep 283
+	sleep 263
 	Send, ^r
-	sleep 283
+	sleep 263
 	Send, {f}
-	sleep 283
+	sleep 263
 	Send, ^t
+	sleep 263
+	Send, ^e
 	return
 }
 
