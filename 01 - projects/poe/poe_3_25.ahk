@@ -7,7 +7,7 @@
 #e::Cast() ;
 e::FullCry() ;
 XButton1:: CombatCry() ;
-XButton2:: Curse() ;
+XButton2:: FullCry() ;
 Space::MousePress() ;
 p::MouseOn() ;
 
