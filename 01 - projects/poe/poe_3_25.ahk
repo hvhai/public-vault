@@ -5,7 +5,7 @@
 #3::Fastjump() ;
 #RButton::Cast() ;
 #e::Cast() ;
-e::FullCry() ;
+e::CombatCry() ;
 XButton1:: CombatCry() ;
 XButton2:: FullCry() ;
 Space::MousePress() ;
