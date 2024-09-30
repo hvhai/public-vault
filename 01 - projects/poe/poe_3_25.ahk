@@ -59,7 +59,7 @@ CombatCry(){
 	Send, ^t
 	sleep 263
 	Send, ^e
-	sleep 10
+	sleep 263
 	Send, ^q
 	return
 }
@@ -76,7 +76,7 @@ FullCry(){
 	Send, ^t
 	sleep 263
 	Send, ^e
-	sleep 10
+	sleep 263
 	Send, ^q
 	return
 }
