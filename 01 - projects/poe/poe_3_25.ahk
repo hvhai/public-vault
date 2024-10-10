@@ -66,8 +66,6 @@ CombatCry(){
 	sleep 263
 	Send, ^r
 	sleep 263
-	Send, {f}
-	sleep 263
 	Send, ^t
 	sleep 263
 	Send, ^e
