@@ -26,7 +26,7 @@ Return
 F3:: ;On/Off with key F1
 	SendFactive := !SendFactive
 	If SendFactive
-		SetTimer SendF, 3980 ;spams every 200ms
+		SetTimer SendF, 4220 ;spams every 200ms
 	Else
 		SetTimer SendF, Off
 Return
