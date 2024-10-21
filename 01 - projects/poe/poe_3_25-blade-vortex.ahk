@@ -4,7 +4,6 @@
 #4::Fastrun() ;
 #3::Fastjump() ;
 #RButton::Cast() ;
-#e::Cast() ;
 #e::CombatCry() ;
 XButton1:: CombatCry() ;
 XButton2:: FullCry() ;
