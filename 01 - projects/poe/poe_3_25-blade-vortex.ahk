@@ -13,12 +13,18 @@ p::MouseOn() ;
 F4:: ;On/Off with key F1
 	SendEactive := !SendEactive
 	If SendEactive
-		SetTimer SendE, 2500 ;spams every 200ms
+		SetTimer SendE, 4000 ;spams every 200ms
 	Else
 		SetTimer SendE, Off
 Return
 
 SendE: ;spams key e
+	Send, {f}
+	sleep 33
+	Send, {f}
+	sleep 33
+	Send, {f}
+	sleep 33
 	Send, {t}
 Return
 
