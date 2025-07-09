@@ -6,6 +6,7 @@
 #RButton::Cast() ;
 #e::Cast() ;
 e::CombatCry() ;
+d:: FullCry() ;
 XButton1:: CombatCry() ;
 XButton2:: FullCry() ;
 Space::MousePress() ;
