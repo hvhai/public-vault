@@ -26,6 +26,8 @@ SendE: ;spams key e
 	Send, {f}
 	sleep 330
 	Send, {t}
+	sleep 20
+	Send {MButton}
 Return
 
 F3:: ;On/Off with key F1
