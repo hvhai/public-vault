@@ -34,7 +34,7 @@ MoveMouse:
 
 ; Press Ctrl+Alt+P to pause/unpause the mouse movement
 ^!p::
-    static paused = 0
+    static paused := false
     paused := !paused
     
     if (paused) {
