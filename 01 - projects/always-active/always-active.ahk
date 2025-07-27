@@ -1,5 +1,5 @@
 #SingleInstance Force
-SetTimer, MoveMouse, 60000  ; Move mouse every 60 seconds (1 minute)
+SetTimer, MoveMouse, 2000  ; Move mouse every 60 seconds (1 minute)
 return
 
 MoveMouse:
@@ -34,7 +34,6 @@ MoveMouse:
 
 ; Press Ctrl+Alt+P to pause/unpause the mouse movement
 ^!p::
-    static paused := false
     paused := !paused
     
     if (paused) {
