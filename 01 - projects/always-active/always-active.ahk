@@ -25,16 +25,16 @@ MoveMouse:
         MouseMove, %point3X%, %point3Y%, 5  ; Move to point 3
         
     ; Optional small movement to make it more noticeable
-    Sleep 100
+    Sleep, 100
     MouseMove, 10, 0, 1, R  ; Move 10 pixels right relative to current position
-    Sleep 100
+    Sleep, 100
     MouseMove, -10, 0, 1, R  ; Move 10 pixels left relative to current position
     
     return
 
 ; Press Ctrl+Alt+P to pause/unpause the mouse movement
 ^!p::
-    static paused := false
+    static paused = 0
     paused := !paused
     
     if (paused) {
