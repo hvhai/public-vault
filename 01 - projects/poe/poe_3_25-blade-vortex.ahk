@@ -12,14 +12,15 @@ p::MouseOn() ;
 
 F4:: ;On/Off with key F1
 	SendEactive := !SendEactive
-	If SendEactive
+	If (SendEactive) {
 		SetTimer SendE, 4500 ;spams every 200ms
-        ToolTip, Send E active
-        SetTimer, RemoveToolTip, 2000
-	Else
+		ToolTip, Send E active
+		SetTimer, RemoveToolTip, 2000
+	} Else {
 		SetTimer SendE, Off
-        ToolTip, Send E paused
-        SetTimer, RemoveToolTip, 2000
+		ToolTip, Send E paused
+		SetTimer, RemoveToolTip, 2000
+	}
 Return
 
 SendE: ;spams key e
@@ -40,10 +41,15 @@ Return
 
 F3:: ;On/Off with key F1
 	SendFactive := !SendFactive
-	If SendFactive
+	If (SendFactive) {
 		SetTimer SendF, 50 ;spams every 200ms
-	Else
+		ToolTip, Send click active
+		SetTimer, RemoveToolTip, 2000
+	} Else {
 		SetTimer SendF, Off
+		ToolTip, Send click paused
+		SetTimer, RemoveToolTip, 2000
+	}
 Return
 
 SendF: ;spams key f
@@ -130,5 +136,5 @@ Cast(){
 }
 
 RemoveToolTip:
-    ToolTip
-    return
+	ToolTip
+return
