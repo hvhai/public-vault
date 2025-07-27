@@ -13,7 +13,7 @@ p::MouseOn() ;
 F4:: ;On/Off with key F1
 	SendEactive := !SendEactive
 	If SendEactive
-		SetTimer SendE, 5000 ;spams every 200ms
+		SetTimer SendE, 4500 ;spams every 200ms
         ToolTip, Send E active
         SetTimer, RemoveToolTip, 2000
 	Else
