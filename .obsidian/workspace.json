@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - projects/poe/poe 3.25.md",
+                "file": "01 - projects/poe/POE 3.27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "poe 3.25"
+              "title": "POE 3.27"
             }
           }
         ]
@@ -171,9 +171,10 @@
   },
   "active": "e46cd75493406280",
   "lastOpenFiles": [
+    "01 - projects/poe/poe 3.25.md",
+    "01 - projects/poe/POE 3.27.md",
     "01 - projects/poe/poe_3_25.ahk",
     "Welcome.md",
-    "01 - projects/poe/poe 3.25.md",
     "01 - projects/poe",
     "04 - archives",
     "03 - resources",
