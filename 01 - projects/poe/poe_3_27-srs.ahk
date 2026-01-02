@@ -13,7 +13,7 @@ p::MouseOn() ;
 F4:: ;On/Off with key F1
 	SendEactive := !SendEactive
 	If (SendEactive) {
-		SetTimer SendE, 4500 ;spams every 200ms
+		SetTimer SendE, 3000 ;spams every 200ms
 		ToolTip, Send E active
 		SetTimer, RemoveToolTip, 2000
 	} Else {
@@ -25,10 +25,8 @@ Return
 
 SendE: ;spams key e
 	Send, {q}
-	sleep 330
+	sleep 200
 	Send {MButton}
-	sleep 20
-	Send, ^e
 Return
 
 F3:: ;On/Off with key F1
