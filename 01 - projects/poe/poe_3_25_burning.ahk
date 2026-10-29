@@ -4,7 +4,6 @@
 #4::Fastrun() ;
 #3::Fastjump() ;
 #RButton::Cast() ;
-#e::Curse() ;
 #e::CombatCry() ;
 d:: FullCry() ;
 XButton1:: CombatCry() ;
@@ -15,13 +14,13 @@ p::MouseOn() ;
 F4:: ;On/Off with key F1
 	SendEactive := !SendEactive
 	If SendEactive
-		SetTimer SendE, 4220 ;spams every 200ms
+		SetTimer SendE, 6000 ;spams every 200ms
 	Else
 		SetTimer SendE, Off
 Return
 
 SendE: ;spams key Enduring cry
-	Send, {g} 
+	Send, {t} 
 Return
 
 F3:: ;On/Off with key F1
