@@ -22,7 +22,7 @@ Return
 SendE: ;spams key Enduring cry
 	Send, {t}
 	sleep 600
-	Send {MButton}
+	Send, {MButton}
 Return
 
 F3:: ;On/Off with key F1
