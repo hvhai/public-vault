@@ -20,7 +20,9 @@ F4:: ;On/Off with key F1
 Return
 
 SendE: ;spams key Enduring cry
-	Send, {t} 
+	Send, {t}
+	sleep 600
+	Send {MButton}
 Return
 
 F3:: ;On/Off with key F1
